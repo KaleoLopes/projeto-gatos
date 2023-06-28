@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+header{
+    display: flex;
+
+}
+
+body{
+    background: url(../imagens/background/background-galeria.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+#barra-topo{
+    width: 100%;
+    display: flex;
+    padding: 15px 50px 5px 15px;
+    align-items: center;
+}
+
+.botoes:hover{
+    transform: scale(1.2);
+    transition: 0.2s ease-in-out;
+}
+
+#menu-navegaçao{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 75px;
+}
+
+#gato-gif{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    padding-right: 10px;
+    position: relative;
+    right: 15px;
+    padding-bottom: 10px;
+}
+
+#gato-gif:hover{
+    transform: scalez(1.3);
+    transition: 0.2s ease-in-out;
+}
+
+#home-icon{
+    width: 1000%;
+    display: flex;
+    justify-content: right;
+}
+
+#sun-icon{
+    margin-left: 40px;
+}
+
+.espaços-gap{
+    gap: 10px;
+}
+
+main{
+    margin: auto;
+}
+
+.conteudo{
+    flex-direction: column;
+    width: 1000px;    
+    margin: 20px auto;
+}
+
+.sessao-1{
+    border: 7px solid #000;
+}
+
+.sessao-2{
+    border: 7px solid #000;
+}
+
+.sessao-3{
+    border: 7px solid #000;
+}
+
+.sessao-4{
+    border: 7px solid #000;
+}
+
+.sessao-5{
+    border: 7px solid #000;
+}
+
+img:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+h4{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}

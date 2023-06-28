@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/imagens/icons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/formulario.css">
+    <link rel="stylesheet" href="./src/css/scrollbar.css">
+    <title>Formulário felino</title>
+</head>
+<body>
+    <main>
+        <div id="Bloco"><!--Bloco principal-->
+            <form class="formulario">
+                <fieldset>
+                    <legend class="bold">Informações sobre seu gato</legend>
+                    <p>
+                        <label for="nome-gato">Qual o nome do seu gato?</label>
+                        <input type="text" name="nome-gato" id="nome-gato" placeholder="Garfield" autocomplete="on" required autofocus>
+                    </p>
+                    <p>
+                        <label for="quantidade-gato">Quantos gatos você tem?</label>
+                        <input type="number" name="quantidade-gato" id="quantidade-gato" value="1" min="1" max="99">
+                    </p>
+                    <p>
+                        <label  class="bold" for="casa-rua">Seu gato&#40;s&#41; fica dentro de casa ou tem acesso à rua?</label>
+
+                        <br>
+                        <br>
+
+                        <input type="radio" name="casa-rua" id="casa">&#32;<span>Fica em casa</span>
+
+                        <br>
+                        <br>
+                        
+                        <input type="radio" name="casa-rua" id="rua">&#32;<span>Sai para rua</span>
+                    </p>
+                    <p  class="bold">Como é a personalidade do seu gato?</p>
+        
+                    <p>
+                        <input type="checkbox" name="manhoso" id="manhoso">
+                        <label for="manhoso">Manhoso</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="carente" id="carente">
+                        <label for="carente">Carente</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="reservado" id="reservado">
+                        <label for="reservado">Reservado</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="alegre" id="alegre">
+                        <label for="alegre">Alegre</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="brincalhao" id="brincalhao">
+                        <label for="brincalhao">Brincalhão</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="teimoso" id="teimoso">
+                        <label for="teimoso">Teimoso</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="independente" id="independente">
+                        <label for="independente">Independente</label>
+                    </p>
+                </fieldset>
+
+                 <br>
+
+                <fieldset>
+                    <legend  class="bold">Seu gato na nossa galeria</legend>
+
+                    <p  class="bold">Anexe uma foto do seu gato &downarrow;</p>
+
+                    <input type="file" name="foto" id="foto">
+
+                    <p  class="bold">Insira uma descrição &downarrow;</p>
+
+                    <textarea style="width: 150px; height: 100px;" placeholder="Insira sua legenda aqui!"></textarea>
+                </fieldset>
+
+                <br>
+        
+                <input type="submit" value="Enviar" id="enviar">
+                <input type="reset" value="Redefinir" id="redefinir">
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="voltar" >
+            <span id="topo"><a href="#">Voltar ao topo &uparrow;</a></span>
+
+            <a href="index.html" class="hover">
+                <img src="src/imagens/icons/home-icon-white.png" alt=""></img>
+            </a>
+
+            <a href="galeria.html" class="hover"> 
+                <img src="src/imagens/icons/gallery-img-white.png" alt="" >
+            </a>
+        </div>
+
+        <h4>&#169;CreatedBy: KaleoLopes</h4>
+    </footer>
+</body>
+</html>

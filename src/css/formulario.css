@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+*{
+    font-size: large;
+}
+
+body{
+    background: url(../imagens/background/background-galeria.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+.formulario{
+    margin: auto;
+    width: 1000px;
+}
+
+fieldset{
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow:  5px 5px 15px  #ffaa71;
+}
+
+footer{
+    margin: auto;
+    width: 1000px;
+}
+
+#enviar:hover,
+#redefinir:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+h4{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:visited,
+a{
+    color: #fff;
+}
+
+a:active,
+a:hover{
+    color: #ffaa71;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.voltar{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.hover:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#topo{
+    position: relative;
+    right: 700px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="submit"],
+input[type="reset"],
+textarea{
+    border-radius: 10px;
+    padding: 5px;
+    background: #e49d6e;
+}
+
+h4{
+    padding-bottom: 20px;
+}
